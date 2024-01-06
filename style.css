@@ -209,5 +209,83 @@ main {
 
 /*----resume section --------*/
 .resume-container {
+
     display: flex;
+    gap: 24px;
+}
+
+.section-heading {
+    color: #181818;
+    text-align: center;
+    margin: 66px 115px;
+
+    font-size: 35px;
+
+    font-weight: 700;
+
+}
+
+.section-heading1 {
+    color: #474747;
+
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    padding: 20px 0px;
+
+}
+
+.section-heading2 {
+    color: #474747;
+
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    padding: 20px 0px;
+
+}
+
+.section-heading3 {
+    color: #757575;
+
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    padding: 20px 0px;
+}
+
+hr {
+    width: 558px;
+    height: 1px;
+
+    background: #D1D1D1;
+}
+
+.aa {
+    text-align: center;
+    padding-bottom: 131px;
+}
+
+footer {
+    display: flex;
+    padding: 130px 200px;
+    margin-top: 80px;
+    margin-bottom: 130px;
+    background: #FFF8F3;
+}
+
+.footer-colum {
+    width: 50% 50%;
+
+}
+
+.form inpute[type="text"],
+input[type="email"] textarea {
+    display: block;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0;
+    width: 100%;
+    padding: 24px;
+
 }
