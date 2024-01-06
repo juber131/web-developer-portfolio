@@ -1,0 +1,61 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 200px;
+}
+
+nav,
+li {
+    list-style: none;
+    margin-right: 50px;
+
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #474747;
+}
+
+.btn-primary {
+    border: 0px;
+    color: var(--White-Color, #FFF);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    padding: 5px 30px;
+    border-radius: 5px;
+    background: #FD6E0A;
+
+}
+
+.header {
+    background-color: #fff8f3;
+
+}
+
+.nav-tittle {
+    color: #181818;
+    font-size: 45px;
+    font-width: 800px;
+}
+
+.text-primary {
+    color: #FD6E0A;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    padding: 30px 30px 30px 150px;
+}
+
+.portfolio-pic {
+    width: 500px;
+
+
+}
