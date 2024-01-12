@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
 }
@@ -63,7 +69,7 @@ nav a {
 }
 
 .portfolio-pic {
-    width: 500px;
+    max-width: 500px;
 
 
 
@@ -180,7 +186,7 @@ main {
 }
 
 .skill {
-    width: 267px;
+    max-width: 267px;
     height: auto;
     border-radius: 5px;
     background: #FFF;
@@ -255,7 +261,7 @@ main {
 }
 
 hr {
-    width: 558px;
+    max-width: 558px;
     height: 1px;
 
     background: #D1D1D1;
@@ -266,26 +272,113 @@ hr {
     padding-bottom: 131px;
 }
 
-footer {
+/*--foooter---*/
+
+.container {
     display: flex;
-    padding: 130px 200px;
-    margin-top: 80px;
-    margin-bottom: 130px;
+    gap: 20px;
+    height: 450px;
     background: #FFF8F3;
-}
+    padding: 80px 30px;
 
-.footer-colum {
-    width: 50% 50%;
 
 }
 
-.form inpute[type="text"],
-input[type="email"] textarea {
+.footer-colum1 {
+
+    width: 50%;
+    padding: 5px 25px;
+
+}
+
+.footer-colum1 h3 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #080808;
+}
+
+.footer-colum2 {
+
+    width: 50%;
+    padding-top: 10px;
+}
+
+.footer-colum2 h3 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #080808;
+}
+
+.fotm,
+input[type="text"],
+.fotm,
+input[type="email"],
+textarea {
     display: block;
-    border-radius: 5px;
-    background: #FFF;
+    width: 95%;
+    padding: 14px;
+    color: #FFF;
     border: 0;
-    width: 100%;
-    padding: 24px;
+    gap: 10px;
+
+
+}
+
+.fotm,
+input {
+    height: 30px;
+
+}
+
+.forn textarea {
+    height: 120px;
+
+}
+
+@media screen and (max-width:570px) {
+
+    .header,
+    .banner {
+        flex-direction: column;
+        padding: 0;
+        margin: 5ps;
+    }
+
+    nav {
+        flex-direction: column;
+        margin: 0;
+
+
+
+    }
+
+    .about {
+        flex-direction: column;
+        margin: 0;
+        padding: 5px;
+        width: 100%;
+    }
+
+
+    .section-description {
+
+        padding: 10px;
+
+    }
+
+    .text-info-container {
+        flex-direction: column;
+        padding: 2px;
+    }
+
+    .section-container {
+        flex-direction: column;
+        padding: 5px;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
 
 }
